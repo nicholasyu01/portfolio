@@ -6,24 +6,45 @@
       <style>
           body{
               background-color: white;
+              margin:0px;
           }
-          #header{
-              text-align: center;
-              font-size: 70px;
-              background-color: lightgray;
-              padding: 60px;
+          #bar{
+              background-color: black;
+              margin-top: 40px;
           }
-          #construction{
-              background-color: yellow;
-              font-size: 50px;
+          #nicholas{
+              text-align: left;
+              font-size: 40px;
+              padding:10px;
+              display: inline-block;
+              color: white;
           }
           
+          #headshot{
+              width: 150px;
+              height: 150px;
+              border-radius: 50%;
+              object-fit:cover;
+              float:left;
+              transform: translateY(-35px);
+              margin-left: 10px;
+          }
+          #menu{
+              float:right;
+              padding-top: 22px;
+              padding-right: 10px;
+              color: white;
+          }
       </style>
   </head>
   <body>
-    <h1 id="header">Welcome to Nicholas Yu's Portfolio</h1>
-      <div id="construction"><b>UNDER CONSTRUCTION</b></div>
-      <img src="https://raw.githubusercontent.com/nicholasyu01/portfolio/master/nick_grad_headshot.jpg" alt="nick_grad_headshot">
+      <header id="bar">
+          <div id="nicholas">
+              Nicholas Yu
+          </div>
+          <img id="headshot" src="https://raw.githubusercontent.com/nicholasyu01/portfolio/master/nick_grad_headshot.jpg" alt="nick_grad_headshot">
+          <div id="menu">Projects Resume About</div>
+      </header>
   </body>
 </html>
 
